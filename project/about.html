@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me</title>
+  <style>
+    body {
+      background: linear-gradient(to bottom, #d0e7f9, #e3aad7, #f3f3f3);
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      text-align: center;
+      padding: 0;
+      width: 100%;
+      overflow: hidden;
+    }
+
+    header img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+
+    nav ul {
+      list-style-type: none;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      background-color: #333;
+    }
+
+    nav ul li {
+      display: inline-block;
+      margin: 0 20px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      font-size: 20px;
+      font-family: 'Arial', sans-serif;
+      font-style: italic;
+      font-weight: bold;
+      color: #fff;
+      padding: 10px 15px;
+      border-radius: 5px;
+    }
+
+    nav ul li a:hover {
+      background-color: #e3aad7;
+    }
+
+    #about {
+      margin-top: 50px;
+      font-size: 1.2em;
+    }
+
+    .intro-box {
+      max-width: 800px;
+      margin: 30px auto;
+      padding: 30px;
+      background-color: rgba(255, 255, 255, 0.8);
+      border-radius: 30px;
+      box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+      font-family: 'Georgia', serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin-left: 20px;
+    }
+
+    #about h2 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+      color: #ab8661;
+      font-style: italic;
+      text-decoration: underline;
+    }
+
+    .hobbies-box h3, .video-box h3, .intro-box p {
+      color: #8dab61;
+    }
+
+    .hobbies-box {
+      max-width: 600px;
+      margin: 50px auto 30px auto;
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.8);
+      border-radius: 30px;
+      box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+
+    ul li {
+      font-size: 1.2em;
+      padding: 5px 0;
+    }
+
+    .spacer {
+      margin: 80px 0;
+    }
+
+    .video-box {
+      max-width: 800px;
+      margin: 30px auto;
+      padding: 30px;
+      background-color: rgba(255, 255, 255, 0.8);
+      border-radius: 30px;
+      box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    iframe {
+      width: 100%;
+      height: 300px;
+      border-radius: 10px;
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.JPG" alt="Website Logo">
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Me</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="contact.html">Contact Me</a></li>
+    </ul>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="intro-box">
+      <p>Hello! My name is <strong>Latifa Alsaif</strong>, and I am currently in my third year of studying IT with a focus on Cybersecurity. I am passionate about technology and digital security. I also enjoy spending time at home with my family, which is where I feel most comfortable and happy.</p>
+      <img class="profile-img" src="images/profile.jpg" alt="Profile Picture">
+    </div>
+  </section>
+
+  <div class="spacer"></div>
+
+  <section>
+    <div class="hobbies-box">
+      <h3>My Hobbies&interests</h3>
+      <ul>
+        <li>Gaming</li>
+        <li>photography</li>
+        <li>Fantasy Movies</li>
+        <li>Animation Design</li>
+        <li>Pet Photography</li>
+        <li>Horse Riding</li>
+      </ul>
+    </div>
+  </section>
+
+  <div class="spacer"></div>
+
+  <section>
+    <div class="video-box">
+      <h3>Short Introduction Video</h3>
+      <video width="600" height="1067" controls>
+        <source src="videos/your-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </section>
+
+</body>
+</html>

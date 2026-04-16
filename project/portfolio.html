@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(to bottom, #f0f8ff, #e3aad7);
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    header img {
+      width: 100%;
+      height: 100px;
+      object-fit: cover;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      text-align: center;
+      background-color: #333;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 20px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-size: 20px;
+      padding: 10px 20px;
+      display: inline-block;
+      border-radius: 5px;
+    }
+
+    nav ul li a:hover {
+      background-color: #e3aad7;
+    }
+
+    .portfolio {
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    .portfolio h2 {
+      font-size: 2.5em;
+      color: #ab8661;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .gallery-item {
+      width: 250px;
+      height: auto;
+      overflow: hidden;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+
+    /* Hover effect animation for images */
+    .gallery-item:hover {
+      transform: scale(1.1); /* Zoom in the image on hover */
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .gallery-item p {
+      margin-top: 10px;
+      font-size: 0.8em;
+      color: #333;
+      font-weight: normal;
+      line-height: 1.2;
+      text-align: center;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo.JPG" alt="Website Logo">
+    <h1>My Portfolio</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Me</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="contact.html">Contact Me</a></li>
+    </ul>
+  </nav>
+
+  <section class="portfolio">
+    <h2>My Photography</h2>
+
+    <div class="gallery">
+      <div class="gallery-item">
+        <img src="images/photo1.jpg" alt="Project 1">
+        <p>Me and my lovely horse</p>
+      </div>
+      <div class="gallery-item">
+        <img src="images/photo2.jpg" alt="Project 2">
+        <p>My pet rabbit Snowball</p>
+      </div>
+      <div class="gallery-item">
+        <img src="images/photo3.jpg" alt="Project 3">
+        <p>My cozy game - Minecraft</p>
+      </div>
+      <div class="gallery-item">
+        <img src="images/photo4.jpg" alt="Project 4">
+        <p>In the nature of 📍🇬🇪</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="portfolio">
+    <h2>My Favorite Movies - Fantasy</h2>
+
+    <div class="gallery">
+      <div class="gallery-item">
+        <img src="images/movie1.jpg" alt="Movie 1">
+        <p>Movie 1 - Fantasy</p>
+      </div>
+      <div class="gallery-item">
+        <img src="images/movie2.jpg" alt="Movie 2">
+        <p>Movie 2 - Fantasy</p>
+      </div>
+      <div class="gallery-item">
+        <img src="images/movie3.jpg" alt="Movie 3">
+        <p>Movie 3 - Fantasy</p>
+      </div>
+      <div class="gallery-item">
+        <img src="images/movie4.jpg" alt="Movie 4">
+        <p>Movie 4 - Fantasy</p>
+      </div>
+      <div class="gallery-item">
+        <img src="images/movie5.jpg" alt="Movie 5">
+        <p>Movie 5 - Fantasy</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="portfolio">
+    <h2>My Favorite Games</h2>
+
+    <div class="gallery">
+      <div class="gallery-item">
+        <img src="images/game1.jpg" alt="Game 1">
+        <p>Survival</p>
+      </div>
+      <div class="gallery-item">
+        <img src="images/game2.jpg" alt="Game 2">
+        <p>Horror</p>
+      </div>
+      <div class="gallery-item">
+        <img src="images/game3.jpg" alt="Game 3">
+        <p>Adventure</p>
+      </div>
+      <div class="gallery-item">
+        <img src="images/game4.jpg" alt="Game 4">
+        <p>Creativity</p>
+      </div>
+      <div class="gallery-item">
+        <img src="images/game5.jpg" alt="Game 5">
+        <p>Cooperation</p>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
